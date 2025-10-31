@@ -1,0 +1,36 @@
+# Core Python and Utilities
+numpy>=1.23.0
+pandas>=1.5.0
+matplotlib>=3.7.0
+scikit-learn>=1.3.0
+
+# Deep Learning (Classical CNN for tumor classification)
+torch>=2.2.0
+torchvision>=0.17.0
+tensorflow>=2.14.0
+keras>=2.14.0
+
+# Quantum Machine Learning
+pennylane>=0.36.0
+pennylane-qiskit>=0.36.0
+qiskit>=1.0.0
+
+# Image Handling (MRI and preprocessing)
+opencv-python>=4.9.0
+Pillow>=10.0.0
+
+# LLM Integration (for GPT-based interpretation)
+openai>=1.12.0
+tiktoken>=0.7.0
+
+# Data & Experiment Management
+tqdm>=4.66.0
+joblib>=1.4.0
+
+# Visualization & Analysis
+seaborn>=0.13.0
+plotly>=5.18.0
+
+# Optional - to run notebooks and visual demos
+jupyterlab>=4.0.0
+notebook>=7.0.0
