@@ -99,8 +99,9 @@ A dense **quantum feature vector** capturing high-order spatial correlations of 
 
 ```mermaid
 flowchart TD
-    A[Brain MRI Image (BraTS Dataset)] --> B[CNN-Based Tumor Classifier]
-    B -->|Detected Tumor| C[Quantum Convolutional Neural Network (QCNN)]
-    C -->|Quantum Feature Map| D[Recurrent Quantum Neural Network (RQNN)]
-    D -->|Temporal State Evolution| E[GPT-based Clinical Report Generator]
-    E --> F[Final Patient Evolution Report]
+    A["Brain MRI Image (BraTS Dataset)"] --> B["CNN-Based Tumor Classifier"]
+    B -->|Detected Tumor| C["Quantum Convolutional Neural Network (QCNN)"]
+    C -->|Quantum Feature Map| D["Recurrent Quantum Neural Network (RQNN)"]
+    D -->|Temporal State Evolution| E["GPT-based Clinical Report Generator"]
+    E --> F["Final Patient Evolution Report"]
+
